@@ -3,11 +3,11 @@ package ClassWork;
 import java.util.Scanner;
 
 public class EvenNumb {
-    public static void eventNumb(String number1) {
+    public  void eventNumb(String number1) {
         System.out.println(isEven(number1));
     }
 
-    public static boolean isEven(String args) {
+    public  boolean isEven(String args) {
         String  regex = "\\d+";
         int o = 0;
         if ((args.matches(regex))) {

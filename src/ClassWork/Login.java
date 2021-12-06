@@ -3,7 +3,7 @@ package ClassWork;
 import java.util.Scanner;
 
 public class Login {
-    public  static  void main(String[] args) {
+    public    void main(String[] args) {
         int pass = takeIntFromScanner();
         String login = takeStringFromScanner();
         LoginInSystemPass(pass, login);
@@ -13,7 +13,7 @@ public class Login {
 
     }
 
-    public static void LoginInSystemPass(int pass, String login) {
+    public  void LoginInSystemPass(int pass, String login) {
         if (pass != 123) {
             System.out.println(" Пароль не верный");
             System.exit(0);
@@ -24,7 +24,7 @@ public class Login {
 
 
     }
-    public static void makeChoose(String s1){
+    public  void makeChoose(String s1){
         Reverse reverseString = new Reverse();
         Replace replaceSomeString = new Replace();
         Fibonacci fibonacci50 = new Fibonacci();
@@ -53,17 +53,17 @@ public class Login {
 
 
 
-    public static int takeIntFromScanner() {
+    public  int takeIntFromScanner() {
         System.out.println("Введите пароль");
         Scanner input = new Scanner(System.in);
         return input.nextInt();
     }
-    public static String takeStringFromScanner() {
+    public  String takeStringFromScanner() {
         System.out.println("Введите логин");
         Scanner input = new Scanner(System.in);
         return input.nextLine();
     }
-    public static String takeStringFromScanner2() {
+    public  String takeStringFromScanner2() {
             System.out.println("Выберете номер задания:\n" +
                     "1. Even Number\n" +
                     "2. Armstrong\n" +
@@ -73,12 +73,12 @@ public class Login {
             Scanner input = new Scanner(System.in);
             return input.nextLine();
         }
-    public static  String takeStringFromScanner3() {
+    public   String takeStringFromScanner3() {
         System.out.println("Введите вашу стрингу ");
         Scanner input = new Scanner(System.in);
         return input.nextLine();
     }
-    public static int takeIntFromScanner1(){
+    public  int takeIntFromScanner1(){
         System.out.println("Введите ваш число");
         Scanner input = new Scanner(System.in);
         return input.nextInt();

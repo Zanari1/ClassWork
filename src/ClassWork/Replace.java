@@ -2,7 +2,7 @@ package ClassWork;
 
 public class Replace {
 
-    public static void replaceString(String s){
+    public  void replaceString(String s){
     int stringLenght = s.length();
         if(stringLenght< 30)
 
@@ -17,7 +17,7 @@ public class Replace {
 }
 
 
-    public static String quoteLetters(String s)
+    public  String quoteLetters(String s)
     {
         return s.replace("A", "@").replace("o", "0").replace("O", "0").replace("a", "@");
     }

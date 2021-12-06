@@ -27,7 +27,7 @@ public class Armstrong {
             else return false;
         }
 
-        public static void  armstrong(int num)
+        public  void  armstrong(int num)
         {
             if(isArmstrong(num))
             {
